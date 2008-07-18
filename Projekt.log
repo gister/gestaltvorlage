@@ -1,10 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.8-beta-20080627 (MiKTeX 2.7) (preloaded format=pdflatex 2008.7.17)  18 JUL 2008 14:59
+This is pdfTeX, Version 3.1415926-1.40.8-beta-20080627 (MiKTeX 2.7) (preloaded format=pdflatex 2008.7.17)  18 JUL 2008 18:30
 entering extended mode
-**D:/EigeneDateien/TEX-Umgebung/Gestaltungsrichtlinien-MeWi/texniccenter/../Pro
-jekt.tex
-
-(D:/EigeneDateien/TEX-Umgebung/Gestaltungsrichtlinien-MeWi/texniccenter/../Proj
-ekt.tex
+**D:/EigeneDateien/TEX-Umgebung/Gestaltungsrichtlinien-MeWi/Projekt.tex
+(D:/EigeneDateien/TEX-Umgebung/Gestaltungsrichtlinien-MeWi/Projekt.tex
 LaTeX2e <2005/12/01>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, french, loaded.
@@ -600,9 +597,9 @@ Package ifpdf Info: pdfTeX in pdf mode detected.
 File: hpdftex.def 2008/07/05 v6.77v Hyperref driver for pdfTeX
 \Fld@listcount=\count128
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 222.
-Package hyperref Info: Option `breaklinks' set `true' on input line 222.
-Package hyperref Info: Option `colorlinks' set `true' on input line 222.
+Package hyperref Info: Option `plainpages' set `false' on input line 221.
+Package hyperref Info: Option `breaklinks' set `true' on input line 221.
+Package hyperref Info: Option `colorlinks' set `true' on input line 221.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
@@ -718,7 +715,7 @@ File: microtype.cfg 2008/06/04 v2.3b microtype main configuration file (RS)
 \newnumberwidth=\skip115
 Class scrartcl Info: You've told me to redefine the font selection of the
 (scrartcl)           element `sectioning' that is an alias of element
-(scrartcl)           `disposition' on input line 342.
+(scrartcl)           `disposition' on input line 341.
 
 
 LaTeX Warning: Unused global option(s):
@@ -727,30 +724,30 @@ LaTeX Warning: Unused global option(s):
 (Projekt.aux (inhalte/titelblatt.aux) (inhalte/vorwort.aux)
 (inhalte/inhaltsverz.aux) (inhalte/hauptteil.aux) (inhalte/changelog.aux)
 (inhalte/literatur.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 345.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 345.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 344.
+LaTeX Font Info:    ... okay on input line 344.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 344.
+LaTeX Font Info:    ... okay on input line 344.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 344.
+LaTeX Font Info:    ... okay on input line 344.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 344.
+LaTeX Font Info:    ... okay on input line 344.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 344.
+LaTeX Font Info:    ... okay on input line 344.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 344.
+LaTeX Font Info:    ... okay on input line 344.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 344.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 344.
 
  ("C:\Programme\MiKTeX 2.7\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 345.
-LaTeX Font Info:    ... okay on input line 345.
-LaTeX Font Info:    Try loading font information for T1+pegj on input line 345.
+LaTeX Font Info:    ... okay on input line 344.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 344.
+LaTeX Font Info:    ... okay on input line 344.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 344.
+LaTeX Font Info:    ... okay on input line 344.
+LaTeX Font Info:    Try loading font information for T1+pegj on input line 344.
 
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\peg\t1pegj.fd"
@@ -808,8 +805,8 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-LaTeX Info: Redefining \dots on input line 345.
-LaTeX Info: Redefining \selectfont on input line 345.
+LaTeX Info: Redefining \dots on input line 344.
+LaTeX Info: Redefining \selectfont on input line 344.
 
 
 Package jurabib Info: *** jurabib set up for babel ***
@@ -817,7 +814,7 @@ Package jurabib Info: *** jurabib set up for babel ***
 ("C:\Programme\MiKTeX 2.7\tex\latex\jurabib\dejbbib.ldf"
 File: dejbbib.ldf jurabib German language definitions
 )
-Package hyperref Info: Link coloring ON on input line 345.
+Package hyperref Info: Link coloring ON on input line 344.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\hyperref\nameref.sty"
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -828,14 +825,14 @@ Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 \c@section@level=\count147
 LaTeX Info: Redefining \Ref on input line 396.
 )
-LaTeX Info: Redefining \ref on input line 345.
-LaTeX Info: Redefining \pageref on input line 345.
+LaTeX Info: Redefining \ref on input line 344.
+LaTeX Info: Redefining \pageref on input line 344.
  (Projekt.out)
 (Projekt.out)
 \@outlinefile=\write4
 \AtBeginShipoutBox=\box32
-LaTeX Info: Redefining \Ref on input line 345.
-LaTeX Info: Redefining \microtypecontext on input line 345.
+LaTeX Info: Redefining \Ref on input line 344.
+LaTeX Info: Redefining \microtypecontext on input line 344.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -852,76 +849,76 @@ sion <1.6>, but at most version <1.4> allowed
 <images/emblem.pdf, id=71, 168.5206pt x 64.38655pt>
 File: images/emblem.pdf Graphic file (type pdf)
  <use images/emblem.pdf>
-LaTeX Font Info:    Try loading font information for U+zeur on input line 13.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 25.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\eulervm\uzeur.fd"
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 13.
+(Font)              scaled to size 10.40245pt on input line 25.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\microtype\mt-eur.cfg"
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 13.
+(Font)              scaled to size 7.59998pt on input line 25.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 13.
-LaTeX Font Info:    Try loading font information for U+zeus on input line 13.
+(Font)              scaled to size 5.69998pt on input line 25.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 25.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\eulervm\uzeus.fd"
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 13.
+(Font)              scaled to size 10.40245pt on input line 25.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\microtype\mt-eus.cfg"
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 13.
+(Font)              scaled to size 7.59998pt on input line 25.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 13.
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 13.
+(Font)              scaled to size 5.69998pt on input line 25.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 25.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\eulervm\uzeuex.fd"
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 13.
+(Font)              scaled to size 10.40245pt on input line 25.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 13.
+(Font)              scaled to size 7.59998pt on input line 25.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 13.
+(Font)              scaled to size 5.69998pt on input line 25.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 13.
+(Font)              scaled to size 10.40245pt on input line 25.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 13.
+(Font)              scaled to size 7.59998pt on input line 25.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 13.
+(Font)              scaled to size 5.69998pt on input line 25.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 13.
+(Font)              scaled to size 10.40245pt on input line 25.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 13.
+(Font)              scaled to size 7.59998pt on input line 25.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.69998pt on input line 13.
+(Font)              scaled to size 5.69998pt on input line 25.
 LaTeX Font Info:    Font shape `T1/pegj/bx/n' in size <12> not available
-(Font)              Font shape `T1/pegj/b/n' tried instead on input line 20.
+(Font)              Font shape `T1/pegj/b/n' tried instead on input line 32.
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+Underfull \hbox (badness 10000) in paragraph at lines 34--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--32
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
@@ -931,13 +928,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
 {C:/Dokumente und Einstellungen/All Users/Anwendungsdaten/MiKTeX/2.7/pdftex/con
 fig/pdftex.map} <images/emblem.pdf>]) (inhalte/vorwort.tex
 LaTeX Font Info:    Font shape `T1/pegj/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/pegj/b/n' tried instead on input line 8.
-LaTeX Font Info:    Try loading font information for T1+fmy on input line 8.
+(Font)              Font shape `T1/pegj/b/n' tried instead on input line 20.
+LaTeX Font Info:    Try loading font information for T1+fmy on input line 20.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\springer\t1fmy.fd"
 File: t1fmy.fd 2003/12/03 Fontinst v1.926 font definitions for T1/fmy.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
@@ -949,12 +946,12 @@ Package microtype Info: Character `029' is missing
 
 
 ] (inhalte/inhaltsverz.tex
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
 LaTeX Font Info:    Font shape `T1/pegj/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/pegj/b/n' tried instead on input line 21.
+(Font)              Font shape `T1/pegj/b/n' tried instead on input line 24.
 (Projekt.toc
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pegj/m/sc/12'.
@@ -969,7 +966,7 @@ Package microtype Info: Character `029' is missing
 
 
 ] (inhalte/hauptteil.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
@@ -979,72 +976,72 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
 ]
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 68.
+(Font)              scaled to size 9.49997pt on input line 60.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 68.
+(Font)              scaled to size 6.64998pt on input line 60.
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 68.
+(Font)              scaled to size 4.74998pt on input line 60.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 68.
+(Font)              scaled to size 9.49997pt on input line 60.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 68.
+(Font)              scaled to size 6.64998pt on input line 60.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 68.
+(Font)              scaled to size 4.74998pt on input line 60.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 68.
+(Font)              scaled to size 9.49997pt on input line 60.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 68.
+(Font)              scaled to size 6.64998pt on input line 60.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 68.
+(Font)              scaled to size 4.74998pt on input line 60.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 68.
+(Font)              scaled to size 9.49997pt on input line 60.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 68.
+(Font)              scaled to size 6.64998pt on input line 60.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 68.
+(Font)              scaled to size 4.74998pt on input line 60.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 68.
+(Font)              scaled to size 9.49997pt on input line 60.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.64998pt on input line 68.
+(Font)              scaled to size 6.64998pt on input line 60.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 4.74998pt on input line 68.
+(Font)              scaled to size 4.74998pt on input line 60.
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-LaTeX Font Info:    Try loading font information for TS1+pegj on input line 99.
+LaTeX Font Info:    Try loading font information for TS1+pegj on input line 84.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\peg\ts1pegj.fd"
 File: ts1pegj.fd 2003/06/24 Fontinst v1.914 font definitions for TS1/pegj.
 )
 LaTeX Font Info:    Font shape `U/zeur/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 122.
+(Font)              scaled to size 8.54997pt on input line 107.
 LaTeX Font Info:    Font shape `U/zeus/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 122.
+(Font)              scaled to size 8.54997pt on input line 107.
 LaTeX Font Info:    Font shape `U/zeuex/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 122.
+(Font)              scaled to size 8.54997pt on input line 107.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 122.
+(Font)              scaled to size 8.54997pt on input line 107.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 122.
+(Font)              scaled to size 8.54997pt on input line 107.
 LaTeX Font Info:    Font shape `T1/pegj/bx/n' in size <9> not available
-(Font)              Font shape `T1/pegj/b/n' tried instead on input line 132.
+(Font)              Font shape `T1/pegj/b/n' tried instead on input line 117.
 LaTeX Font Info:    Font shape `T1/pegj/bx/it' in size <9> not available
-(Font)              Font shape `T1/pegj/b/it' tried instead on input line 132.
+(Font)              Font shape `T1/pegj/b/it' tried instead on input line 117.
 LaTeX Font Info:    Font shape `T1/pegj/bx/it' in size <10> not available
-(Font)              Font shape `T1/pegj/b/it' tried instead on input line 132.
+(Font)              Font shape `T1/pegj/b/it' tried instead on input line 117.
  [3
 
 ] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 [5
 
 ] [6]) [7] (inhalte/changelog.tex
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
 
@@ -1053,12 +1050,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
 
 ] (inhalte/literatur.tex
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
@@ -1071,12 +1068,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 (inhalte/literatur.aux)) ) 
 Here is how much of TeX's memory you used:
  13870 strings out of 95322
- 196855 string characters out of 1183987
+ 196807 string characters out of 1183987
  332393 words of memory out of 1500000
  16507 multiletter control sequences out of 110000
  98253 words of font info for 231 fonts, out of 1200000 for 2000
  14 hyphenation exceptions out of 8191
- 42i,11n,57p,930b,511s stack positions out of 5000i,500n,10000p,200000b,5000s
+ 42i,11n,57p,914b,511s stack positions out of 5000i,500n,10000p,200000b,5000s
 pdfTeX warning (dest): name{UNDEFINED} has been refer
 enced but does not exist, replaced by a fixed one
 
