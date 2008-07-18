@@ -1,7 +1,10 @@
-This is pdfTeX, Version 3.1415926-1.40.8-beta-20080627 (MiKTeX 2.7) (preloaded format=pdflatex 2008.7.17)  18 JUL 2008 18:30
+This is pdfTeX, Version 3.1415926-1.40.8-beta-20080627 (MiKTeX 2.7) (preloaded format=pdflatex 2008.7.17)  18 JUL 2008 19:39
 entering extended mode
-**D:/EigeneDateien/TEX-Umgebung/Gestaltungsrichtlinien-MeWi/Projekt.tex
-(D:/EigeneDateien/TEX-Umgebung/Gestaltungsrichtlinien-MeWi/Projekt.tex
+**D:/EigeneDateien/TEX-Umgebung/Gestaltungsrichtlinien-MeWi/texniccenter/../Pro
+jekt.tex
+
+(D:/EigeneDateien/TEX-Umgebung/Gestaltungsrichtlinien-MeWi/texniccenter/../Proj
+ekt.tex
 LaTeX2e <2005/12/01>
 Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
 rman, ngerman, french, loaded.
@@ -684,16 +687,6 @@ Package: amsthm 2004/08/06 v2.20
 ("C:\Programme\MiKTeX 2.7\tex\latex\bera\beramono.sty"
 Package: beramono 2004/01/31 (WaS)
 )
-("C:\Programme\MiKTeX 2.7\tex\latex\pad\xagaramon.sty"
-Package: xagaramon 2004/08/04 Loading AGaramond Exp (WaS)
-LaTeX Font Info:    Try loading font information for T1+padj on input line 37.
-
-("C:\Programme\MiKTeX 2.7\tex\latex\pad\t1padj.fd"
-File: t1padj.fd 2003/05/29 scalable font definitions for T1/padj.
-)
-LaTeX Font Info:    Font shape `T1/padj/m/n' will be
-(Font)              scaled to size 11.27847pt on input line 37.
-)
 ("C:\Programme\MiKTeX 2.7\tex\latex\eulervm\eulervm.sty"
 Package: eulervm 2005/01/11 v4.0 (WaS)
 )
@@ -715,7 +708,7 @@ File: microtype.cfg 2008/06/04 v2.3b microtype main configuration file (RS)
 \newnumberwidth=\skip115
 Class scrartcl Info: You've told me to redefine the font selection of the
 (scrartcl)           element `sectioning' that is an alias of element
-(scrartcl)           `disposition' on input line 341.
+(scrartcl)           `disposition' on input line 345.
 
 
 LaTeX Warning: Unused global option(s):
@@ -724,30 +717,30 @@ LaTeX Warning: Unused global option(s):
 (Projekt.aux (inhalte/titelblatt.aux) (inhalte/vorwort.aux)
 (inhalte/inhaltsverz.aux) (inhalte/hauptteil.aux) (inhalte/changelog.aux)
 (inhalte/literatur.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 344.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 344.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 348.
+LaTeX Font Info:    ... okay on input line 348.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 348.
+LaTeX Font Info:    ... okay on input line 348.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 348.
+LaTeX Font Info:    ... okay on input line 348.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 348.
+LaTeX Font Info:    ... okay on input line 348.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 348.
+LaTeX Font Info:    ... okay on input line 348.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 348.
+LaTeX Font Info:    ... okay on input line 348.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 348.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 348.
 
  ("C:\Programme\MiKTeX 2.7\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 344.
-LaTeX Font Info:    ... okay on input line 344.
-LaTeX Font Info:    Try loading font information for T1+pegj on input line 344.
+LaTeX Font Info:    ... okay on input line 348.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 348.
+LaTeX Font Info:    ... okay on input line 348.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 348.
+LaTeX Font Info:    ... okay on input line 348.
+LaTeX Font Info:    Try loading font information for T1+pegj on input line 348.
 
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\peg\t1pegj.fd"
@@ -805,8 +798,8 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-LaTeX Info: Redefining \dots on input line 344.
-LaTeX Info: Redefining \selectfont on input line 344.
+LaTeX Info: Redefining \dots on input line 348.
+LaTeX Info: Redefining \selectfont on input line 348.
 
 
 Package jurabib Info: *** jurabib set up for babel ***
@@ -814,7 +807,7 @@ Package jurabib Info: *** jurabib set up for babel ***
 ("C:\Programme\MiKTeX 2.7\tex\latex\jurabib\dejbbib.ldf"
 File: dejbbib.ldf jurabib German language definitions
 )
-Package hyperref Info: Link coloring ON on input line 344.
+Package hyperref Info: Link coloring ON on input line 348.
 
 ("C:\Programme\MiKTeX 2.7\tex\latex\hyperref\nameref.sty"
 Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
@@ -825,14 +818,14 @@ Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 \c@section@level=\count147
 LaTeX Info: Redefining \Ref on input line 396.
 )
-LaTeX Info: Redefining \ref on input line 344.
-LaTeX Info: Redefining \pageref on input line 344.
+LaTeX Info: Redefining \ref on input line 348.
+LaTeX Info: Redefining \pageref on input line 348.
  (Projekt.out)
 (Projekt.out)
 \@outlinefile=\write4
 \AtBeginShipoutBox=\box32
-LaTeX Info: Redefining \Ref on input line 344.
-LaTeX Info: Redefining \microtypecontext on input line 344.
+LaTeX Info: Redefining \Ref on input line 348.
+LaTeX Info: Redefining \microtypecontext on input line 348.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1067,13 +1060,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 (inhalte/inhaltsverz.aux) (inhalte/hauptteil.aux) (inhalte/changelog.aux)
 (inhalte/literatur.aux)) ) 
 Here is how much of TeX's memory you used:
- 13870 strings out of 95322
- 196807 string characters out of 1183987
- 332393 words of memory out of 1500000
- 16507 multiletter control sequences out of 110000
- 98253 words of font info for 231 fonts, out of 1200000 for 2000
+ 13802 strings out of 95322
+ 195811 string characters out of 1183987
+ 332132 words of memory out of 1500000
+ 16446 multiletter control sequences out of 110000
+ 94307 words of font info for 230 fonts, out of 1200000 for 2000
  14 hyphenation exceptions out of 8191
- 42i,11n,57p,914b,511s stack positions out of 5000i,500n,10000p,200000b,5000s
+ 42i,11n,57p,930b,511s stack positions out of 5000i,500n,10000p,200000b,5000s
 pdfTeX warning (dest): name{UNDEFINED} has been refer
 enced but does not exist, replaced by a fixed one
 
@@ -1085,7 +1078,7 @@ ramme/MiKTeX 2.7/fonts/type1/adobe/stgaramo/pegbj8a.pfb><C:/Programme/MiKTeX 2.
 7/fonts/type1/adobe/stgaramo/pegr8a.pfb><C:/Programme/MiKTeX 2.7/fonts/type1/ad
 obe/stgaramo/pegrc8a.pfb><C:/Programme/MiKTeX 2.7/fonts/type1/adobe/stgaramo/pe
 gri8a.pfb><C:/Programme/MiKTeX 2.7/fonts/type1/adobe/stgaramo/pegrij8a.pfb>
-Output written on Projekt.pdf (12 pages, 240389 bytes).
+Output written on Projekt.pdf (12 pages, 240387 bytes).
 PDF statistics:
  247 PDF objects out of 1000 (max. 8388607)
  53 named destinations out of 1000 (max. 131072)
