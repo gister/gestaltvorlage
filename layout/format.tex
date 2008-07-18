@@ -1,0 +1,345 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Präambel einer Vorlage für akademische Arbeiten
+%% bezogen auf die Gestaltungsrichtlinien der Medienwissenschaft
+%% an der Universität Regensburg
+%% 
+%% Viel Vergnügen beim Verwenden und Ändern der Einstellungen,
+%% viel Erfolg bei der Arbeit!
+%% Juli 2008, Christoph Mandl und Christoph Pfeiffer
+%% 
+%% http://www-mw.uni-r.de/studium/materialien 
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% koma script und ein paar optionen
+\documentclass[%
+11.5pt%
+,oneside%
+,a4paper%
+%,normalheadings%
+%,headsepline%
+,liststotoc%
+,bibtotoc%
+,english%
+,ngerman%
+]{scrartcl}
+
+%% Inhaltsverzeichnisformate ansprechen
+\usepackage[titles]{tocloft}
+
+%% dvi - pdf - weiche
+\ifx\pdftexversion\undefined
+  \usepackage[dvips]{graphicx}
+ \else
+  \usepackage[pdftex]{graphicx}
+ \fi
+
+%% Satzspiegel
+\usepackage[%
+left=3.7cm%
+,right=3.5cm%
+,top=3cm%
+,bottom=5cm%
+,ignorehead%
+]{geometry}
+
+%% Zeilenabstand
+\usepackage{setspace}
+\setstretch{1.2}
+
+%% Grundlegendes
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{textcomp}
+
+
+%%% >farbe< definieren
+\usepackage[pdftex]{xcolor}
+\definecolor{farbe}{gray}{0.30}
+\definecolor{ueberschrift}{gray}{0.30}
+
+%% einige wichtige pakete
+\usepackage{%
+ellipsis%
+,fixltx2e%
+,ae%
+,verbatim%
+,mparhack%
+,xkeyval%
+,enumitem%
+,booktabs%
+,lettrine%
+,ragged2e%
+,varioref%
+}
+
+%% Zitierzeichen damit kann schnell zwischen guillemets und anderen
+%% gewechselt werden, ausserdem interessant für sprachspezifische
+%% Zitierweisen. \foreignquote{language}{text}
+%% Ersetzen der Texniccenter eigenen durch: "`-->\enquote{ und "'-->}
+\usepackage[%
+babel%
+,german=guillemets%
+]{csquotes}
+
+\let\a\enquote
+
+% dilletantische Änderung des Abstands über einer Section
+\def\abstand{\quad\newline}
+
+%% jurabib bibtex stilverwaltung
+\usepackage{jurabib}
+\usepackage{url,ifthen}
+\jurabibsetup{commabeforerest,%
+authorformat={year},titleformat=commasep,%
+dotafter=bibentry,see,round,pages={format}}
+
+%% weitere jurabib einstellungen
+\renewcommand*{\bibbtsep}{In: }
+\renewcommand*{\bibjtsep}{In: }
+\renewcommand*{\biburlprefix}{[}%urls mit eckiger klammer
+\renewcommand*{\biburlsuffix}{]}%urls mit eckiger klammer
+%\renewcommand*{\biburlprefix}{\jblangle{}}% spitze-klammer-links
+%\renewcommand*{\biburlsuffix}{\jbrangle{}}% spitze-klammer-rechts
+\biburlfont{same} %Format:url
+\AddTo{\bibsgerman}{%
+\renewcommand{\Bibchaptername}{Kapitel}
+\renewcommand{\editorname}{(Hrsg.)}}
+\renewcommand*{\bibfnfont}{\textbf} %Format:Vorname
+\renewcommand*{\biblnfont}{\textbf} %Format:Nachname
+\renewcommand*{\bibtfont}{\textit} %Format:Titel
+\renewcommand*{\bibbtfont}{\textit} %Format:Booktitle
+\renewcommand*{\bibjtfont}{\textit} %Format:Journal
+\renewcommand*{\bibapifont}{} %Format:Titel:unselbständiger:Beiträge
+\renewcommand*{\bibefnfont}{} %Format:Editor:Vorname
+\renewcommand*{\bibelnfont}{} %Format:Editor:Nachname
+\renewcommand{\bibaesep}{. } % Punkt nach Herausgebern
+\renewcommand{\bibansep}{. } % Punkt nach (Jahr)
+\renewcommand{\bibnumberformat}[1]{(#1)}
+\renewcommand*{\jbcitationyearformat}[1]{(#1)} %Format:Jahreszahl
+%% Autoren-Zwischenzeichen im Text
+\renewcommand*{\jbbtasep}{ \& }
+\renewcommand*{\jbbfsasep}{, }
+\renewcommand*{\jbbstasep}{ \& }
+%% Autoren-Zwischenzeichen  im LitVerz
+\renewcommand*{\bibbtasep}{ {\textbf{\&}} }
+\renewcommand*{\bibbfsasep}{{\textbf{;}} }
+\renewcommand*{\bibbstasep}{ {\textbf{\&}} }
+%% Herausgeber-Zwischenzeichen  im LitVerz
+\renewcommand*{\bibbtesep}{ \& }
+\renewcommand*{\bibbfsesep}{; }
+\renewcommand*{\bibbstesep}{ \& }
+
+%% eigenes format für längere zitate
+\newenvironment{zitat}{%
+  %\list{}{\footnotesize\singlespacing{\leftmargin=13pt}}\item\relax}{\endlist}
+  \begin{spacing}{1.1}\list{}{%
+  \small{\leftmargin=13pt}%
+  }\item\relax}{\endlist\end{spacing}}
+  
+%% umgebung um rand links und rechts variabel einzuziehen  
+\def\randeinzug#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endrandeinzug=\endlist  
+  
+%% oder das hier umformatieren  
+\newenvironment{myquote}%
+{\begin{quote}\small\sffamily}%
+{\end{quote}}%
+
+
+%%% Seitenkopf und Seitenfuß
+%\usepackage[automark]{scrpage2}
+%	\pagestyle{scrheadings}
+%	\setheadwidth[]{text}
+%	\ihead{}
+%	\chead{\headmark}
+%	\ohead{}
+%%	\setheadsepline{1pt}[\color{farbe}]
+%\setheadsepline{1pt}
+%	\cfoot{\pagemark}
+%	\setkomafont{pagehead}{\itshape\small} 
+%	\setkomafont{pagenumber}{\normalfont}
+%
+%%% eigener Seitenstil für Sections
+%\defpagestyle{section}{%
+%%{}{}{}}%
+%(0pt,0pt){}{}{}(0pt,0pt)}%
+%{{\pagemark\hfill}{\hfill\pagemark}{\hfill\pagemark\hfill}}
+%
+%%% eigener Seitenstil
+%\defpagestyle{scrplain}{%
+%{}{}{}}%
+%{{\pagemark\hfill}{\hfill\pagemark}{\hfill\pagemark\hfill}}
+%
+%
+%%% eigener Seitenstil
+%\defpagestyle{nix}{%
+%(0pt,0pt){}{}{}(0pt,0pt)}%
+%{(0pt,0pt){}{}{}(0pt,0pt)}
+
+%% Formate der Objektbeschriftungen
+\addtokomafont{caption}{\itshape\small}
+\setkomafont{captionlabel}{\itshape\bfseries\small}
+\setkomafont{subparagraph}{\bfseries\small}
+
+%% Fußnotenformatierung
+\deffootnote[1.2em]{1.2em}{2.2em}{\thefootnotemark\ }
+
+%% snake-oil für Bilder
+\pdfcompresslevel=9 
+
+% Hyperrefeinstellungen
+\usepackage[%
+unicode%
+,a4paper%
+,pdfpagelabels%
+,pdftex%
+]{hyperref}
+
+
+%% Weitere Hyperrefeinstellungen
+\hypersetup{%
+pdfauthor={Vorname Nachname}%
+,pdftitle={Titel der Arbeit}%
+,pdfsubject={Abschlussarbeit}%
+,pdfkeywords={Abschlussarbeit}%
+,pdfcreator={\LaTeX with pdflatex and KOMA-Script}%
+,pdfproducer={pdfetex}%
+,pdfborder={0}%
+,plainpages=false%
+,breaklinks=true%
+,pdfstartpage={1}%
+,pdfpagelayout=OneColumn%
+,pdfpagemode=UseOutlines%None,UseOutlines,UseThumbs,FullScreen 
+%% fuer die Screen-Version: blue
+%,linkcolor=blue,anchorcolor=blue,citecolor=blue,filecolor=blue,menucolor=blue,urlcolor=blue%
+%% fuer die Print-Version: black
+,linkcolor=black,anchorcolor=black,citecolor=black,filecolor=black,menucolor=black,urlcolor=black%
+,colorlinks=true% Links farbig markieren oder mit Box umfassen 
+,pdfhighlight=/I% 
+,pdfborder=0 0 0%
+}
+
+
+%\usepackage{eco}  %% mediävalziffern \oldstylenums \newstylenums
+%
+%% Schöne Ziffern und Palatino
+%\usepackage[osf]{mathpazo}  %% Palatino, plus passende Matheschrift
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+\usepackage[scaled]{beramono} % Schreibmaschinenschrift: BeraMono
+
+%% Garamond Expert
+%\usepackage[scaled,osf]{xagaramon}% Adobe Garamond Expert oldstylenums
+\usepackage[scaled=1.03,osf]{xagaramon}% Adobe Garamond Expert oldstylenums
+\renewcommand{\rmdefault}{pegj}
+\usepackage[small,euler-digits]{eulervm}
+
+%%% Adobe Springer Myriad
+\renewcommand{\sfdefault}{fmy}% S_Myriad
+
+
+
+%% snake-oil für den Satz
+\pretolerance=100           %% Textsatz: interner Parameter zur Steuerung des Zeilenumbruchs
+\tolerance 300              %% 1414 Bewertungsgrenzwert für schlecht umbrochene Zeilen
+\hfuzz=0.2pt                %% Grenze, ab der eine overfull hbox gemeldet wird
+\vfuzz=0.2pt                %% Grenzwert, ab dem die Überfüllung einer \vbox protokolliert wird
+\hbadness 1414              %% Grenzwert für »schlechte« Zeilen, bzw. Boxen
+\vbadness	1000              %% Grenzwert für eine »schlechte« \vbox 
+\emergencystretch 1em       %% zusätzlicher dynamischer Leerraum
+\hyphenpenalty=30           %% Strafpunkte bei Silbentrennung über Absatz hinweg
+\widowpenalty=100000          %% falls letzte Zeile auf neue Seite gebrochen wird.
+\clubpenalty=100000           %% wenn erste Zeile eines Absatzes auf alter Seite bleibt.
+\doublehyphendemerits=70    %% Aufeinanderfolgende Silbentrennungen eher vermeiden. 
+
+%% microtype, optischer Randausgleich Extrusion und Protrusion
+\usepackage[%
+activate%
+%,final%
+%,verbose=true%
+]{microtype}
+
+
+% avoid page numbers being right-aligned in fixed-size box              
+\newlength{\newnumberwidth}
+\settowidth{\newnumberwidth}{99} % yields overfull hbox warnings for pages > 99
+\cftsetpnumwidth{\newnumberwidth}
+
+% Abstand im TOC vor sections
+\setlength{\cftbeforesecskip}{2em}%
+
+% sections
+\renewcommand{\cftsecpresnum}{\huge}% Nummerierung
+%\renewcommand{\cftsecnumwidth}{}% Breite der Nummernbox
+\renewcommand{\cftsecaftersnumb}{\hspace{0.3em}{\vspace{0.2em}}}% Nach Nummernbox, vor Titelbox
+\renewcommand{\cftsecfont}{\large\scshape}% Titelschrift
+\renewcommand{\cftsecleader}{\hspace{0.3em} $\cdot$ \hspace{-0.7em}}% Abstand und Zwischenzeichen
+\renewcommand{\cftsecpagefont}{\normalfont}% Seitenzahlschrift
+\renewcommand{\cftsecafterpnum}{\cftparfillskip}%
+\renewcommand{\cftsecindent}{0em}%
+{\relax}% 
+
+
+
+% subsections
+\renewcommand{\cftsubsecpresnum}{\textls}% Nummerierung
+\renewcommand{\cftsubsecnumwidth}{1.9em}% Breite der Nummernbox
+%\renewcommand{\cftsubsecaftersnumb}{\hspace{6em}}% Nach Nummernbox, vor Titelbox
+\renewcommand{\cftsubsecfont}{\normalfont}% Titelschrift
+\renewcommand{\cftsubsecleader}{\hspace{0.3em} $\cdot$ \hspace{-0.7em}}% Abstand und Zwischenzeichen
+%\renewcommand{\cftsubsecpagefont}{}% Seitenzahlschrift
+\renewcommand{\cftsubsecafterpnum}{\cftparfillskip}%
+\renewcommand{\cftsubsecindent}{0em}%
+{\relax}% 
+
+% subsubsections
+%\renewcommand{\cftsubsubsecpresnum}{}% Nummerierung
+\renewcommand{\cftsubsubsecfont}{\normalfont}% Titelschrift
+\renewcommand{\cftsubsubsecleader}{\hspace{0.3em} $\cdot$ \hspace{-0.7em}}% Abstand und Zwischenzeichen
+%\renewcommand{\cftsubsubsecpagefont}{}% Seitenzahlschrift
+\renewcommand{\cftsubsubsecafterpnum}{\cftparfillskip}%
+\renewcommand{\cftsubsubsecindent}{0em}%
+{\relax}%
+
+
+
+%                
+%    % figures     
+%    	\renewcommand{\cftfigpresnum}{\scshape}% 
+%    	\renewcommand{\cftfigfont}{\normalfont}%                 
+%        \renewcommand{\cftfigleader}{\hspace{1.5em}} 
+%        \renewcommand{\cftfigpresnum}{\figurename~}%Fig.~}
+%        \renewcommand{\cftfigafterpnum}{\cftparfillskip}
+%        \newlength{\figurelabelwidth}
+%        \settowidth{\figurelabelwidth}{\cftfigpresnum~99}
+%        \addtolength{\figurelabelwidth}{2.5em}
+%        \cftsetindents{figure}{0em}{\figurelabelwidth}
+%    % tables
+%    	\renewcommand{\cfttabpresnum}{\scshape}%
+%    	\renewcommand{\cfttabfont}{\normalfont}%
+%        \renewcommand{\cfttableader}{\hspace{1.5em}} 
+%        \renewcommand{\cfttabpresnum}{\tablename~}%Tab.~}
+%        \renewcommand{\cfttabafterpnum}{\cftparfillskip}    
+%        \newlength{\tablelabelwidth}
+%        \settowidth{\tablelabelwidth}{\cfttabpresnum~99}
+%        \addtolength{\tablelabelwidth}{2.5em}
+%        %\cftsetindents{table}{0em}{\tablelabelwidth}
+%        \cftsetindents{table}{0em}{\figurelabelwidth}
+
+
+%% have the bib neatly positioned after the rest
+%    \newlength{\beforebibskip}  
+%    \setlength{\beforebibskip}{0em}   
+       
+
+
+\addto{\captionsngerman}{\renewcommand{\refname}{Quellenverzeichnis}}
+\setkomafont{sectioning}{\rmfamily\bfseries\boldmath}
+\setkomafont{caption}{\rmfamily\footnotesize\bfseries\boldmath}
+\setkomafont{descriptionlabel}{\normalfont\bfseries}
+\begin{document}
