@@ -3,3 +3,6 @@
 *.toc
 *.aux
 *.bbl
+*.blg
+*.out
+*.url
