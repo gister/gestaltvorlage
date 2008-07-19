@@ -23,6 +23,12 @@
 ,ngerman%
 ]{scrartcl}
 
+\usepackage{xifthen}
+
+%% soll automatisch nach Schriftverfuegbarkeit geprueft werden?
+\newboolean{automatischeschriftwahl}
+\setboolean{automatischeschriftwahl}{true}% true oder false
+
 %% Inhaltsverzeichnisformate ansprechen
 \usepackage[titles]{tocloft}
 
@@ -231,19 +237,39 @@ pdfauthor={Vorname Nachname}%
 
 \usepackage[scaled]{beramono} % Schreibmaschinenschrift: BeraMono
 
+\ifthenelse{\boolean{automatischeschriftwahl}}{
+%% wenn Adobe Stempel Garamond vorhanden ist, wird diese verwendet
+\IfFileExists{t1pegj.fd}%
+{%
+\renewcommand{\rmdefault}{pegj}%
+\usepackage[small,euler-digits]{eulervm}%
+}{%
+\usepackage{eco}%
+\usepackage[osf]{mathpazo}%
+}
+
+%% wenn Adobe Myriad vorhanden ist, wird diese verwendet
+\IfFileExists{t1fmy.fd}%
+{%
+\renewcommand{\sfdefault}{fmy}% Adobe Springer Myriad
+}{%
+%
+}
+}{}
+
+
 %% freie Schriften
 %\usepackage{eco}  %% mediävalziffern \oldstylenums \newstylenums
 %\usepackage[osf]{mathpazo}  %% Palatino, plus passende Matheschrift
 
-
 %% unfrei :
-%\usepackage[scaled,osf]{xagaramon}% Adobe Garamond Expert oldstylenums
-%\usepackage[scaled=1.03,osf]{xagaramon}% Adobe Garamond Expert oldstylenums, anders skaliert
+%%\usepackage[scaled,osf]{xagaramon}% Adobe Garamond Expert oldstylenums
+%%\usepackage[scaled=1.03,osf]{xagaramon}% Adobe Garamond Expert oldstylenums, anders skaliert
 %%
-\renewcommand{\rmdefault}{pegj}% Adobe Stempel Garamond oldstylenums
-\usepackage[small,euler-digits]{eulervm}
+%\renewcommand{\rmdefault}{pegj}% Adobe Stempel Garamond oldstylenums
+%\usepackage[small,euler-digits]{eulervm}
 %%
-\renewcommand{\sfdefault}{fmy}% Adobe Springer Myriad
+%\renewcommand{\sfdefault}{fmy}% Adobe Springer Myriad
 %%
 
 
