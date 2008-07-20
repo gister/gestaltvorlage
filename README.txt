@@ -28,7 +28,7 @@
 
 Bei der ersten Verwendung sollten drei Durchlaeufe des Dokuments erstellt werden bevor alle
 Listings und Literaturreferenzen korrekt dargestellt werden, falls jemand anhand der Gestaltungsrichtlinie
-ein erstes Gefühl für den Einsatz LaTeX gewinnen möchte.
+ein erstes Gefuehl für den Einsatz LaTeX gewinnen moechte.
 
 
 
