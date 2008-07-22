@@ -138,10 +138,9 @@ dotafter=bibentry,see,round,pages={format}}
 
 %% Format fuer laengere Zitate
 \newenvironment{zitat}{%
-  %\list{}{\footnotesize\singlespacing{\leftmargin=13pt}}\item\relax}{\endlist}
-  \begin{addmargin}[1cm]{1cm}\vspace{0.4cm}\begin{spacing}{1.1}\list{}{%
+  \vspace{0.4cm}\begin{spacing}{1.1} \begin{addmargin}[1cm]{1cm} \list{}{%
   \small%
-  }\item\relax}{\endlist\end{spacing}\end{addmargin}}
+  }\item\relax}{\endlist \end{addmargin} \end{spacing}\vspace{3mm}}
 
 
 %%% Seitenkopf und Seitenfuß
@@ -195,11 +194,12 @@ unicode%
 
 
 %% Weitere Hyperrefeinstellungen
+%% Fuer die jeweilige eigene Arbeit aendern!
 \hypersetup{%
-pdfauthor={Vorname Nachname}%
-,pdftitle={Titel der Arbeit}%
-,pdfsubject={Abschlussarbeit}%
-,pdfkeywords={Abschlussarbeit}%
+pdfauthor={Christoph Mandl, Christoph Pfeiffer}%
+,pdftitle={Gestaltungsrichtlinien Medienwissenschaft}%
+,pdfsubject={Vorgaben für das Erstellen schriftlicher Arbeiten am Lehrstuhl für Medienwissenschat der Universität Regensburg}%
+,pdfkeywords={Gestaltungsrichtlinien Medienwissenschaft}%
 ,pdfcreator={\LaTeX with pdflatex and KOMA-Script}%
 ,pdfproducer={pdfetex}%
 ,pdfborder={0}%
