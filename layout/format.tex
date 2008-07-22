@@ -136,21 +136,12 @@ dotafter=bibentry,see,round,pages={format}}
 \renewcommand*{\bibbfsesep}{; }
 \renewcommand*{\bibbstesep}{ \& }
 
-%% eigenes format für längere zitate
+%% Format fuer laengere Zitate
 \newenvironment{zitat}{%
   %\list{}{\footnotesize\singlespacing{\leftmargin=13pt}}\item\relax}{\endlist}
-  \begin{spacing}{1.1}\list{}{%
-  \small{\leftmargin=13pt}%
-  }\item\relax}{\endlist\end{spacing}}
-  
-%% umgebung um rand links und rechts variabel einzuziehen  
-\def\randeinzug#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
-\let\endrandeinzug=\endlist  
-  
-%% oder das hier umformatieren  
-\newenvironment{myquote}%
-{\begin{quote}\small\sffamily}%
-{\end{quote}}%
+  \begin{addmargin}[1cm]{1cm}\vspace{0.4cm}\begin{spacing}{1.1}\list{}{%
+  \small%
+  }\item\relax}{\endlist\end{spacing}\end{addmargin}}
 
 
 %%% Seitenkopf und Seitenfuß
